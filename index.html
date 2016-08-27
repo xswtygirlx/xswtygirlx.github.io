@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name='description' content>
+        <meta name='author' content>
+        <title>Ajax LED</title>
+
+        <link rel="stylesheet" href="css/style.css" type="text/css"></link>
+    </head>
+
+    <body>
+        <h1>AJAX LED Example</h1>
+        <div class= 'container'>
+            <div class='current-settings'>
+                <h2>Current LED Settings</h2>
+                <h4 class='power-status'>Power: <span></span></h4>
+                <h4 class='color-status'>Color:
+                    <span class='red'></span>
+                    <span class='green'></span>
+                    <span class='blue'></span>
+                </h4>
+            </div>
+            <br>
+            <div class='controls'>
+                <h2>LED Controls</h2>
+                <div class='buttons'>
+                    <!-- current data-state values are for anode common RGB LED -->
+                    <!-- data-state values should match your imp's device code setup on/off values -->
+                    <button id='on' data-state='0'>ON</button>
+                    <button id='off' data-state='1'>OFF</button>
+                </div>
+                <br>
+                <div class='color'>
+                    <form id='color-form'>
+                        <label>RED: </label><input id='red'></input>
+                        <label>GREEN: </label><input id='green'></input>
+                        <label>BLUE: </label><input id='blue'></input>
+                        <button type='submit' id='color'>Set Color</button>
+                    </form>
+                </div>
+                <br>
+            </div> <!-- controls -->
+        </div>  <!-- container -->
+
+        <!-- jQuery -->
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
+        <!-- JavaScript File -->
+        <script src='js/application.js'></script>
+
+    </body>
+</html>

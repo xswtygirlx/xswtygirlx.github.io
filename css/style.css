@@ -1,0 +1,52 @@
+ h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+form {
+    margin-bottom: 1%;
+}
+
+span {
+    padding: 0 5px;
+}
+
+.buttons button {
+    font-size: 24px;
+    border-radius: 4px;
+    padding: 1.5% 3%;
+    margin: 0 5%;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.controls {
+    border: 1px dotted gray;
+    width: 70%;
+    margin: auto;
+}
+
+.current-settings {
+    border: 1px dotted gray;
+    width: 70%;
+    margin: auto;
+}
+
+.buttons {
+    margin-bottom: 1%;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
